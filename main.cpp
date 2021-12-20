@@ -42,9 +42,6 @@ int main(int argc, char* args[])
 		bool quit = false;
 		while (!quit) {
 
-
-			//Clear screen
-			
 			SDL_Rect topLeftViewport;
 			topLeftViewport.x = 0;
 			topLeftViewport.y = 0;
