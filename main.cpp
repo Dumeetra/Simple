@@ -44,8 +44,7 @@ int main(int argc, char* args[])
 
 
 			//Clear screen
-			SDL_SetRenderDrawColor(game.getrend(), 80, 80, 80, 0xFF);
-			SDL_RenderClear(game.getrend());
+			
 			SDL_Rect topLeftViewport;
 			topLeftViewport.x = 0;
 			topLeftViewport.y = 0;
