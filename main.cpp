@@ -18,7 +18,7 @@ int main(int argc, char* args[])
 {
 	int crtnr = 0;
 	int level = 0;
-	std::cout << "Enter level: ";
+	std::cout << "Enter level (1 - 10): ";
 	std::cin >> level; //level and present size of arrays
 	const int max = 10; //maximum size of arrays
 
